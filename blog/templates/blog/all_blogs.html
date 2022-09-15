@@ -1,0 +1,27 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+{% load blog_extras %}
+{% load static %}
+
+
+
+<h1 id="blogtitle" class="font-weight-bold text-center">Блоги</h1>
+
+<h3 class="text-center mb-5">Всего на сайте {{ blogs.count }} {{ blogs.count|ru_plural:"блог,блога,блогов" }}</h3>
+
+{% for blog in blogs %}
+<div class="row justify-content-center my-3">
+  <div class="col-md-10">
+    <a href="{% url 'blog:detail' blog.id %}">
+      <h2>{{ blog.title }}</h2>
+    </a>
+    <h5 class="text-muted">{{ blog.date|date:'M d Y'|upper }}</h5>
+    <h4>{{ blog.description|striptags|truncatechars:100 }}</h4>
+  </div>
+</div>
+{% endfor %}
+     <div class="container text-center">
+    <br>
+    <a href="{% url 'home' %}">На главную</a>
+    </div>
+{% endblock %}
