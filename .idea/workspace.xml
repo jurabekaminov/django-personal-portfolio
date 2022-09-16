@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f4c129-124e-4696-adea-d6cad536a6c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/personal_portfolio_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portfolio/images/Apple-macOS-13-wallpaper-Dark-Mode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/portfolio/images/lock.png.webp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,9 @@
       <workItem from="1663137784599" duration="27624000" />
       <workItem from="1663251997018" duration="3675000" />
       <workItem from="1663276065818" duration="243000" />
-      <workItem from="1663282818508" duration="659000" />
+      <workItem from="1663282818508" duration="1162000" />
+      <workItem from="1663334281210" duration="8000" />
+      <workItem from="1663335149600" duration="341000" />
     </task>
     <servers />
   </component>
